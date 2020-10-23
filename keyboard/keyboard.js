@@ -64,6 +64,15 @@ const keyboard = {
         // Synchronously change keyboard color based color picker change.
         colorInput.addEventListener("input", (color) => {
             document.getElementById("keyboard").style.background = colorInput.value;
+            if (colorInput.value == "#ffffff") {
+                document.querySelectorAll(".keyboard_key").forEach(element => {
+                    element.classList.add("keyboard_key-dark");
+                });
+            } else {
+                document.querySelectorAll(".keyboard_key").forEach(element => {
+                    element.classList.remove("keyboard_key-dark");
+                });
+            }
         });
         return fragment;
     },

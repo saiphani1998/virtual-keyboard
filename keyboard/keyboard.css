@@ -39,6 +39,11 @@
     position: relative;
 }
 
+.keyboard_key-dark {
+    color: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.2);
+}
+
 .keyboard_key:active {
     background: rgba(255, 255, 255, 0.12);
 }
