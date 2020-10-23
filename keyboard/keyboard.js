@@ -163,10 +163,6 @@ const keyboard = {
         if (typeof this.eventHandlers[handlerName] == "function") {
             this.eventHandlers[handlerName](this.properties.value);
         }
-
-        if (handlerName === "oninput") {
-            document.getElementById("textarea").focus();
-        }
     },
 
     _toggleCapsLock() {
