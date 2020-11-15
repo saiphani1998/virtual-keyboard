@@ -140,7 +140,7 @@ const keyboard = {
                     break;
 
                 case "done":
-                    keyElement.classList.add("keyboard_key-wide", "keyboard_key-dark");
+                    keyElement.classList.add("keyboard_key-wide", "keyboard_key-done");
                     keyElement.innerHTML = createIconHTML("check_circle");
                     keyElement.addEventListener('click', () => {
                         this.close();
