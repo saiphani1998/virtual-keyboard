@@ -1,2 +1,2 @@
 # virtual-keyboard
-An easily pluggable git virtual-keyboard component
+An easily pluggable virtual-keyboard component developed using Vanilla JavaScript
